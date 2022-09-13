@@ -1,0 +1,25 @@
+$leftSideWidth : 16.8rem;
+
+.dashboardWrapper{
+    padding: 0;
+    height: 100vh !important;
+    background-color: #f2f8fb;
+    overflow: hidden;
+}
+
+.leftContent{
+    padding: 0;
+    width: $leftSideWidth;
+    height: inherit;
+}
+
+.rightContent{
+    padding: 0;
+    width: calc(100% - $leftSideWidth);
+    height: inherit !important;
+    overflow: auto;
+}
+.maxHeight{
+    height: inherit !important;
+}
+

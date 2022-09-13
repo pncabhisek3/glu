@@ -1,0 +1,125 @@
+.infoButton:hover> {
+    svg:not(:root) {
+        color: white;
+    }
+}
+
+.cardSecondListItem {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.container {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+    height: 100%;
+}
+
+.withBorder {
+    border: solid black !important;
+    height: inherit !important;
+    position: relative;
+}
+
+.rowStyle {
+    // border: solid red !important;
+    height: inherit !important;
+}
+
+.profileImg {
+    width: 7en;
+    height: 7em;
+    min-width: 5em;
+    min-height: 5em;
+    margin: 5px 0px;
+    background-color: gainsboro;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.08);
+
+}
+
+.profileEditBtn {
+    position: absolute;
+    left: 5em;
+    top: 5em;
+    padding: 3px 7px;
+}
+
+.greenTick {
+    position: absolute;
+    top: -5px;
+    right: 0px;
+}
+
+.imgTreyCard {
+    height: 11.5rem;
+    min-height: 4rem;
+    overflow: auto;
+}
+
+.imgTreyCard>.card-body {
+    padding: 3px !important;
+}
+
+.figureImg {
+    margin: 0.1rem;
+    line-height: 1;
+    background: gainsboro;
+    border-radius: 3px;
+}
+
+.cardEditIcon {
+    margin-bottom: 4px;
+}
+
+.cardImage {
+    width: 8em;
+    border-radius: 50%;
+    position: absolute;
+    left: 5em;
+    top: 7em;
+    background: rgb(0 0 0 / 15%);
+    backdrop-filter: blur(2px);
+}
+
+.cardContentCurved {
+    clip-path: ellipse(93% 100% at 11.73% 0%);
+    // background-color: #dc3d4b;
+    padding: 6em;
+    border-radius: inherit;
+    background: linear-gradient(201deg, rgba(252, 97, 165, 1) 19%, rgba(132, 66, 226, 1) 100%);
+}
+
+.separator {
+    background: black;
+    padding: 2px;
+    width: 5em;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.counterContent {
+    margin-top: 5px;
+    background: #ffc107;
+    height: 2.5em;
+    border-radius: 19px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    line-height: 2.4;
+    font-weight: bold;
+    cursor: default;
+}
+
+.lineSeparetor {
+    width: 3px;
+    background: white;
+}
+
+.modalHeaderStyle {
+    padding: 5px 15px;
+}
+
+.modalBody {
+    height: 82vh;
+}

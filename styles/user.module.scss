@@ -1,0 +1,47 @@
+.container {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+}
+
+.margin {
+    margin: 10px;
+}
+
+.withBorder {
+    border-bottom: 3px solid black !important;
+}
+
+.defaultHeadingWrapper {
+    margin: 10px 0 10px 0;
+    .defaultHeadingText {
+        font-weight: bold;
+        color: black;
+        margin-left: 5px;
+    }
+}
+
+.divStyle {
+    overflow-y: scroll;
+    border: 1px solid red;
+}
+
+.cursor {
+    cursor: pointer;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.primaryHeaderLoader {
+    float: right !important;
+}
+
+.subHeadingText {
+    padding: 5px 5px 5px 0px;
+}
+
+.editUserAccordionNody1{
+    padding: 5px;
+    height: 50vh;
+    overflow: auto;
+}
+
